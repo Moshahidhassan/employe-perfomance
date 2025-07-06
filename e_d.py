@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 
 # Sample employee data
 data = {
-    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva', 'Frank', 'Grace', 'Henry' ],
-    'Department': ['HR', 'Sales', 'IT', 'Sales', 'HR', 'IT', 'Sales', 'IT' ],
-    'Performance Score': [88, 75, 93, 80, 90, 85, 78, 95,],
+    'Name': ['moshahid', 'badal', 'sudha', 'manoj', 'suresh', 'anushka', 'amit', 'shivansh' ],
+    'Department': ['pl', 'pl', 'pl', 'p0', 'bo', 'pl', 'tl', 'tl' ],
+    'Performance Score': [88, 75, 93, 80, 90, 85, 88, 95,],
     'Attendance (%)': [92, 85, 98, 87, 96, 89, 82, 97,]
 }
 df = pd.DataFrame(data)
